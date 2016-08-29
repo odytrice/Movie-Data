@@ -55,10 +55,15 @@
   </Choose>
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
-    <Compile Include="Netflix.fsx" />
-    <Content Include="packages.config" />
     <None Include="Scripts\load-references-debug.fsx" />
     <None Include="Scripts\load-project-debug.fsx" />
+    <Compile Include="Scripts\Netflix.fsx" />
+    <None Include="Scripts\NewYorkTimes.fsx" />
+    <None Include="Scripts\TheMovieDB.fsx" />
+    <Content Include="packages.config" />
+    <None Include="Schema\MovieSearch.json" />
+    <None Include="Schema\MovieDetails.json" />
+    <None Include="Schema\MovieCast.json" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Data">
