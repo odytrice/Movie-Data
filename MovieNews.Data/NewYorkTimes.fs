@@ -1,4 +1,4 @@
-﻿#load "../scripts/load-references-debug.fsx"
+﻿module MovieNews.Data.NewYorkTimes
 
 open System
 open FSharp.Data
@@ -27,4 +27,3 @@ let tryPickReviewByName name =
             LinkText = r.Link.SuggestedLinkText })
 
 
-tryPickReviewByName "Interstellar"

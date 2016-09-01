@@ -7,6 +7,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MovieData", "MovieData\Movi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B803FFFC-1E45-43E7-AB92-6E33A730DFA4}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MovieNews.Data", "MovieNews.Data\MovieNews.Data.fsproj", "{744F30CD-8B3B-4CF3-B581-9C2BADE13614}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{0F364D4B-C2FF-4440-B181-D1AAAAA6AFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F364D4B-C2FF-4440-B181-D1AAAAA6AFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F364D4B-C2FF-4440-B181-D1AAAAA6AFEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{744F30CD-8B3B-4CF3-B581-9C2BADE13614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{744F30CD-8B3B-4CF3-B581-9C2BADE13614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{744F30CD-8B3B-4CF3-B581-9C2BADE13614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{744F30CD-8B3B-4CF3-B581-9C2BADE13614}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
