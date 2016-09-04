@@ -1,0 +1,59 @@
+﻿@model IEnumerable<MovieNews.Data.MovieBasics>
+@{
+    ViewBag.Title = "Most Popular Movies";
+}
+
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1><i class="fa fa-film"></i> Movie News</h1>
+                <p>
+                    Get the latest movie news, using the most popular movies from
+                    Netflix with cast details from The Movie Database and Reviews
+                    from the New York Times. Powered by C# ASP.NET and F# Data
+                    Type Providers for XML and JSON
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@{
+    int counter = 1;
+}
+
+<div class="container main">
+    <div class="row">
+        <div class="col-md-6">
+            <ul>
+                @foreach (var movie in Model.Take(10))
+                {
+                    <li>
+                        <h2>#@(counter++) <a href="details?title=@Uri.EscapeDataString(movie.Title)">@movie.Title</a></h2>
+                        @if (movie.Thumbnail != null)
+                        {
+                            <img src="@movie.Thumbnail.Value" />
+                        }
+                        <p>@movie.Summary</p>
+                    </li>
+                }
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <ul>
+                @foreach (var movie in Model.Skip(10))
+                {
+                    <li>
+                        <h2>#@(counter++) <a href="details/@Uri.EscapeDataString(movie.Title)">@movie.Title</a></h2>
+                        @if (movie.Thumbnail != null)
+                        {
+                            <img src="@movie.Thumbnail.Value" />
+                        }
+                        <p>@movie.Summary</p>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>

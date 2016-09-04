@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieNews.Test", "MovieNews
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieData.Console", "MovieData.Console\MovieData.Console.csproj", "{CE2BC23F-055A-4345-A04A-E3CEA3D1FAD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieNews.Web", "MovieNews.Web\MovieNews.Web.csproj", "{6A48E635-6568-4888-AAA9-DA780ACE1FCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{CE2BC23F-055A-4345-A04A-E3CEA3D1FAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE2BC23F-055A-4345-A04A-E3CEA3D1FAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE2BC23F-055A-4345-A04A-E3CEA3D1FAD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A48E635-6568-4888-AAA9-DA780ACE1FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A48E635-6568-4888-AAA9-DA780ACE1FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A48E635-6568-4888-AAA9-DA780ACE1FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A48E635-6568-4888-AAA9-DA780ACE1FCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
