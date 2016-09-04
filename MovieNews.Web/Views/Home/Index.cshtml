@@ -45,7 +45,7 @@
                 @foreach (var movie in Model.Skip(10))
                 {
                     <li>
-                        <h2>#@(counter++) <a href="details/@Uri.EscapeDataString(movie.Title)">@movie.Title</a></h2>
+                        <h2>#@(counter++) <a href="details?title=@Uri.EscapeDataString(movie.Title)">@movie.Title</a></h2>
                         @if (movie.Thumbnail != null)
                         {
                             <img src="@movie.Thumbnail.Value" />
