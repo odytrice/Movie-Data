@@ -29,5 +29,8 @@ type Details =
       Released : DateTime
       AverageVote : decimal }
 
-
-type Movie = { Movie: MovieBasics;}
+type Movie = 
+    { Movie : MovieBasics
+      Details : Details
+      Cast : seq<Cast>
+      Review : option<Review> }

@@ -11,6 +11,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MovieNews.Data", "MovieNews
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieNews.Test", "MovieNews.Test\MovieNews.Test.csproj", "{BC12D1F3-A312-487E-8A0F-03F7A5BF2E34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieData.Console", "MovieData.Console\MovieData.Console.csproj", "{CE2BC23F-055A-4345-A04A-E3CEA3D1FAD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{BC12D1F3-A312-487E-8A0F-03F7A5BF2E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC12D1F3-A312-487E-8A0F-03F7A5BF2E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC12D1F3-A312-487E-8A0F-03F7A5BF2E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE2BC23F-055A-4345-A04A-E3CEA3D1FAD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE2BC23F-055A-4345-A04A-E3CEA3D1FAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE2BC23F-055A-4345-A04A-E3CEA3D1FAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE2BC23F-055A-4345-A04A-E3CEA3D1FAD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
