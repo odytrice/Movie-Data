@@ -52,6 +52,7 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="ThrottleRequest.fs" />
     <Compile Include="Domain.fs" />
     <None Include="Schema\MovieSearch.json" />
     <None Include="Schema\MovieDetails.json" />
